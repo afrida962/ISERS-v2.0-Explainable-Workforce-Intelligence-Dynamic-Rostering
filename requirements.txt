@@ -1,0 +1,9 @@
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+sqlalchemy>=2.0,<3
+pydantic>=2.8,<3
+email-validator>=2.2,<3
+# Production PostgreSQL driver
+psycopg[binary]>=3.2,<4
+# Optional high-performance optimiser. ISERS includes a deterministic fallback solver.
+ortools>=9.11,<10
